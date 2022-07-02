@@ -1,0 +1,103 @@
+<h1 class="mt-4">{{ title }}</h1>
+<ol class="breadcrumb mb-4">
+    <li class="breadcrumb-item"><a routerLink="/admin/dashboard">Home</a></li>
+    <li class="breadcrumb-item"><a href="#">Dashboard</a></li>
+    <li class="breadcrumb-item active">Summary</li>
+</ol>
+
+<div class="row">
+  <div class="col-xl-3 col-md-6">
+      <div class="card bg-primary text-white mb-4">
+          <div class="card-body">Primary Card</div>
+          <div class="card-footer d-flex align-items-center justify-content-between">
+              <a class="small text-white stretched-link" href="#">View Details</a>
+              <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+          </div>
+      </div>
+  </div>
+  <div class="col-xl-3 col-md-6">
+      <div class="card bg-warning text-white mb-4">
+          <div class="card-body">Warning Card</div>
+          <div class="card-footer d-flex align-items-center justify-content-between">
+              <a class="small text-white stretched-link" href="#">View Details</a>
+              <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+          </div>
+      </div>
+  </div>
+  <div class="col-xl-3 col-md-6">
+      <div class="card bg-success text-white mb-4">
+          <div class="card-body">Success Card</div>
+          <div class="card-footer d-flex align-items-center justify-content-between">
+              <a class="small text-white stretched-link" href="#">View Details</a>
+              <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+          </div>
+      </div>
+  </div>
+  <div class="col-xl-3 col-md-6">
+      <div class="card bg-danger text-white mb-4">
+          <div class="card-body">Danger Card</div>
+          <div class="card-footer d-flex align-items-center justify-content-between">
+              <a class="small text-white stretched-link" href="#">View Details</a>
+              <div class="small text-white"><i class="fas fa-angle-right"></i></div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-xl-6">
+      <div class="card mb-4">
+          <div class="card-header bg-danger text-white">
+              <i class="fas fa-chart-pie me-1"></i>
+              Pie Chart Example
+          </div>
+          <div class="card-body">
+            <app-pie-chart></app-pie-chart>
+          </div>
+      </div>
+  </div>
+  <div class="col-xl-6">
+      <div class="card mb-4">
+          <div class="card-header bg-danger text-white">
+              <i class="fas fa-chart-bar me-1"></i>
+              Bar Chart Example
+          </div>
+          <div class="card-body">
+              <app-bar-chart></app-bar-chart>
+          </div>
+      </div>
+  </div>
+</div>
+
+<div class="card mb-4">
+  <div class="card-header bg-danger text-white">
+      <i class="fas fa-table me-1"></i>
+      DataTable Example
+  </div>
+  <div class="card-body">
+      <div class="table-responsive">
+          <table class="table table-striped">
+              <thead>
+                  <tr>
+                      <th>#</th>
+                      <th>Name</th>
+                      <th>Email</th>
+                      <th>Phone</th>
+                      <th>Website</th>
+                      <th>Address</th>
+                  </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let item of [].constructor(10); let i = index">
+                    <td>{{ i+1 }}</td>
+                    <td>Hello World</td>
+                    <td>hello.world@devel.com</td>
+                    <td>Hello World</td>
+                    <td>Hello World</td>
+                    <td>Hello World</td>
+                  </tr>
+              </tbody>
+          </table>
+      </div>
+  </div>
+</div>

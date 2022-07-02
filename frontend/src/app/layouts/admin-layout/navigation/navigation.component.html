@@ -1,0 +1,75 @@
+<nav class="sb-topnav navbar navbar-expand navbar-dark bg-danger">
+  <!-- Navbar Brand-->
+  <a class="navbar-brand ps-3" routerLink="/">{{ title }}</a>
+  <!-- Sidebar Toggle-->
+  <button class="btn btn-link btn-sm order-1 order-lg-0 me-4 me-lg-0" id="sidebarToggle" (click)="toggleSideBar($event)" href="#!"><i class="fas fa-bars"></i></button>
+  <!-- Navbar-->
+  <ul class="navbar-nav ms-auto me-3 me-lg-4">
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class="fas fa-bell fa-fw"></i><sup><span class="badge rounded-pill bg-warning">{{ totalNotif }}</span></sup>
+        </a>
+        <div class="dropdown-menu dropdown-menu-end p-3 notification-dropdown">
+            <a class="text-notification" routerLink="/admin/notification/detail/212">
+              <div class="clearfix">
+                  <div class="float-start">
+                      <strong><small>Lorem Ipsum</small></strong>
+                  </div>
+                  <div class="float-end">
+                      <strong><small>1 days ago</small></strong>
+                  </div>
+              </div>
+              <p class="text-justify mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+            <hr class="dropdown-divider" />
+            <a class="text-notification" routerLink="/admin/notification/detail/212">
+              <div class="clearfix">
+                  <div class="float-start">
+                      <strong><small>Lorem Ipsum</small></strong>
+                  </div>
+                  <div class="float-end">
+                      <strong><small>1 days ago</small></strong>
+                  </div>
+              </div>
+              <p class="text-justify mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+            <hr class="dropdown-divider" />
+            <a class="text-notification" routerLink="/admin/notification/detail/212">
+              <div class="clearfix">
+                  <div class="float-start">
+                      <strong><small>Lorem Ipsum</small></strong>
+                  </div>
+                  <div class="float-end">
+                      <strong><small>1 days ago</small></strong>
+                  </div>
+              </div>
+              <p class="text-justify mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+            <hr class="dropdown-divider" />
+            <a class="text-notification" routerLink="/admin/notification/detail/212">
+              <div class="clearfix">
+                  <div class="float-start">
+                      <strong><small>Lorem Ipsum</small></strong>
+                  </div>
+                  <div class="float-end">
+                      <strong><small>1 days ago</small></strong>
+                  </div>
+              </div>
+              <p class="text-justify mt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </a>
+            <hr class="dropdown-divider" />
+            <a routerLink="/admin/notification/list" class="btn btn-sm btn-warning text-white w-100">See All Notifiaction</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
+          <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" routerLink="/home">Back to Home</a></li>
+              <li><a class="dropdown-item" routerLink="/admin/account/profile">My Profile</a></li>
+              <li><a class="dropdown-item" routerLink="/admin/account/password">Change Password</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" routerLink="/auth/logout">Logout</a></li>
+          </ul>
+      </li>
+  </ul>
+</nav>

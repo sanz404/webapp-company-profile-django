@@ -1,0 +1,68 @@
+<nav class="sb-sidenav accordion sb-sidenav-dark" id="sidenavAccordion">
+  <div class="sb-sidenav-menu">
+      <div class="nav">
+        <div class="sb-sidenav-menu-heading">Main Menu</div>
+        <a class="nav-link" [routerLink]="['/admin/dashboard']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-tachometer"></i></div>
+          Dashboard
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/article/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-clipboard"></i></div>
+          Article
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/contact/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-child"></i></div>
+          Contact
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/message/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-envelope"></i></div>
+          Message
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/service/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-gift"></i></div>
+          Service
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/team/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-user-circle"></i></div>
+          Team
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/faq/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-share-alt-square"></i></div>
+          Faq
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/product/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-cubes"></i></div>
+          Product
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/portfolio/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-address-card"></i></div>
+          Portfolio
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/user/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-users"></i></div>
+          User
+        </a>
+        <div class="sb-sidenav-menu-heading">Account Menu</div>
+        <a class="nav-link" [routerLink]="['/admin/notification/list']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-bell"></i></div>
+           Notification&nbsp;<span class="badge rounded-pill bg-warning">100</span>
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/account/profile']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
+          Profile
+        </a>
+        <a class="nav-link" [routerLink]="['/admin/account/password']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-lock"></i></div>
+          Change Password
+        </a>
+        <a class="nav-link" [routerLink]="['/auth/logout']" routerLinkActive="active">
+          <div class="sb-nav-link-icon"><i class="fas fa-sign-out"></i></div>
+          Log Out
+        </a>
+      </div>
+  </div>
+  <div class="sb-sidenav-footer">
+      <div class="small">Logged in as:</div>
+      Superadmin
+  </div>
+</nav>

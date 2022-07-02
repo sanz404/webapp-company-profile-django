@@ -1,0 +1,3 @@
+ng generate component pages/public/home --skip-tests
+ng generate module pages/public --routing
+ng generate service shared/services/title
