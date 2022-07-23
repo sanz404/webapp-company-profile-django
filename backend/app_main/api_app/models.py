@@ -118,6 +118,20 @@ class Article(models.Model):
             models.Index(fields=['created_at']),
             models.Index(fields=['updated_at'])
         ]
+        
+class ArticleComment(models.Model):
+    article = models.ForeignKey(Article, on_delete=models.DO_NOTHING, null=False)
+    user = models.ForeignKey(User, on_delete=models.DO_NOTHING, null=False)
+    description = models.TextField(null=False)
+    created_at = models.DateTimeField(null=True)
+    updated_at = models.DateTimeField(null=True)
+    class Meta():
+        indexes = [
+            models.Index(fields=['article_id']),
+            models.Index(fields=['user_id']),
+            models.Index(fields=['created_at']),
+            models.Index(fields=['updated_at'])
+        ]
 
 class Country(models.Model):
     code = models.CharField(max_length=64)
@@ -221,7 +235,7 @@ class Message(models.Model):
             models.Index(fields=['updated_at'])
         ]
     
-class Notiifcation(models.Model):
+class Notification(models.Model):
     user = models.ForeignKey(User, on_delete=models.DO_NOTHING, null=False)
     subject = models.CharField(max_length=191,null=True)
     sort_content = models.CharField(max_length=191,null=True)
