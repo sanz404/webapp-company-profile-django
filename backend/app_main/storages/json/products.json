@@ -1,0 +1,40 @@
+{
+  "RECORDS": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "name": "FREE",
+      "image": null,
+      "price": 0.0,
+      "description": "<ul><li><strong>1 users</strong></li><li>5GB storage</li><li>Unlimited public projects</li><li>Community access</li><li>Unlimited private projects</li><li>Dedicated support</li><li>Free linked domain</li><li>Monthly status reports</li></ul>",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "name": "PRO",
+      "image": null,
+      "price": 9.0,
+      "description": "<ul><li><strong>5 users</strong></li><li>5GB storage</li><li>Unlimited public projects</li><li>Community access</li><li>Unlimited private projects</li><li>Dedicated support</li><li>Free linked domain</li><li>Monthly status reports</li></ul>",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "name": "ENTERPRISE",
+      "image": null,
+      "price": 49.0,
+      "description": "<ul><li><strong>Unlimited users</strong></li><li>5GB storage</li><li>Unlimited public projects</li><li>Community access</li><li>Unlimited private projects</li><li>Dedicated support</li><li><strong>Unlimited</strong> linked domains</li><li>Monthly status reports</li></ul>",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    }
+  ]
+}

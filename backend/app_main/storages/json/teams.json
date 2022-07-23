@@ -1,0 +1,48 @@
+{
+  "RECORDS": [
+    {
+      "id": 1,
+      "image": null,
+      "name": "Ibbie Eckart",
+      "position": "Founder & CEO",
+      "description": "Amet autem dolores commodi optio et. Quisquam beatae quia maiores. Quo iste sed aut qui aut voluptas deserunt. Sunt ut et occaecati nihil incidunt veritatis.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "image": null,
+      "name": "Arden Vasek",
+      "position": "CFO",
+      "description": "Fugiat ut voluptatum a rerum fugit. Eaque in voluptatem sed accusamus harum. Voluptates eum enim voluptatibus recusandae blanditiis.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    },
+    {
+      "id": 3,
+      "image": null,
+      "name": "Toribio Nerthus",
+      "position": "Operations Manager",
+      "description": "Cupiditate veniam explicabo eos. Aut delectus quam asperiores voluptates ullam ut deserunt debitis. Debitis doloribus consequatur eos amet.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    },
+    {
+      "id": 4,
+      "image": null,
+      "name": "Malvina Cilla",
+      "position": "CTO",
+      "description": "Consequuntur vero iusto nulla accusantium dolore. Ad ratione neque quasi totam. Odit deleniti aut nihil cupiditate cumque. Dolorum omnis dolore asperiores quod.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:59",
+      "updated_at": "19/7/2022 15:51:59",
+      "deleted_at": null
+    }
+  ]
+}

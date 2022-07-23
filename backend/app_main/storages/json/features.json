@@ -1,0 +1,44 @@
+{
+  "RECORDS": [
+    {
+      "id": 1,
+      "icon": "bi bi-collection",
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "icon": "bi bi-building",
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 3,
+      "icon": "bi bi-toggles2",
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 4,
+      "icon": "bi bi-toggles2",
+      "title": "Featured title",
+      "description": "Paragraph of text beneath the heading to explain the heading. Here is just a bit more text.",
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    }
+  ]
+}

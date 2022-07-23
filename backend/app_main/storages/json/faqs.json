@@ -1,0 +1,70 @@
+{
+  "RECORDS": [
+    {
+      "id": 1,
+      "category_id": 1,
+      "question": "Accordion Item #1",
+      "answer": "This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body , though the transition does limit overflow.",
+      "sort": 1,
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "category_id": 1,
+      "question": "Accordion Item #2",
+      "answer": "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body , though the transition does limit overflow.",
+      "sort": 2,
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 3,
+      "category_id": 1,
+      "question": "Accordion Item #3",
+      "answer": "This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body , though the transition does limit overflow.",
+      "sort": 3,
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 4,
+      "category_id": 2,
+      "question": "Accordion Item #1",
+      "answer": "This is the first item's accordion body. It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body , though the transition does limit overflow.",
+      "sort": 1,
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 5,
+      "category_id": 2,
+      "question": "Accordion Item #2",
+      "answer": "This is the second item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body , though the transition does limit overflow.",
+      "sort": 2,
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    },
+    {
+      "id": 6,
+      "category_id": 2,
+      "question": "Accordion Item #3",
+      "answer": "This is the third item's accordion body. It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the .accordion-body , though the transition does limit overflow.",
+      "sort": 3,
+      "is_published": 1,
+      "created_at": "19/7/2022 15:51:56",
+      "updated_at": "19/7/2022 15:51:56",
+      "deleted_at": null
+    }
+  ]
+}

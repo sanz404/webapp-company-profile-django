@@ -1,0 +1,20 @@
+{
+  "RECORDS": [
+    {
+      "id": 1,
+      "name": "Website",
+      "description": "Provident vel consectetur aut sint omnis enim. Ipsa tempora animi occaecati accusantium culpa quod. Dignissimos est ea quisquam.",
+      "created_at": "19/7/2022 15:51:32",
+      "updated_at": "19/7/2022 15:51:32",
+      "deleted_at": null
+    },
+    {
+      "id": 2,
+      "name": "Mobile Apps",
+      "description": "Perferendis sunt nemo odio tempore ipsa ullam tempore. Dolore reprehenderit odio ex blanditiis est aperiam. At minus consequatur sunt ut dolore omnis porro.",
+      "created_at": "19/7/2022 15:51:32",
+      "updated_at": "19/7/2022 15:51:32",
+      "deleted_at": null
+    }
+  ]
+}
